@@ -1,10 +1,12 @@
 {
   "name": "twitchbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Twitch chat bot",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/danitish/TwitchBot/issues"
   },
-  "homepage": "https://github.com/danitish/TwitchBot#readme"
+  "homepage": "https://github.com/danitish/TwitchBot#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
