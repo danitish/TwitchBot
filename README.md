@@ -1,6 +1,5 @@
 # Twitch Bot
 
-![Twitch Bot Logo](./images/twitch-bot-logo.png)
 
 Welcome to the Twitch Bot project! This repository contains the code for a Twitch bot that enhances your Twitch channel by adding custom functionalities, moderation features, and interaction capabilities with your viewers.
 
